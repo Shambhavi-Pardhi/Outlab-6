@@ -1,0 +1,58 @@
+@import '~@angular/material/theming';
+@include mat-core();
+$primary: mat-palette($mat-blue, 600);
+$accent:  mat-palette($mat-light-blue, 600, 300, 600);
+$warn:    mat-palette($mat-deep-orange, 500, 700, 800);
+
+$font-stack:    Arial, sans-serif;
+$primary-color: darkcyan;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.right {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.button2 {
+  font-size: 20px;
+  position: relative;
+  transform: translateX(1100%);
+}
+
+.button1 {
+  font-size: 20px;
+  position: relative;
+  transform: translateX(650%);
+}
+
+.down {
+  padding-top: 10px;
+}
+
+.pos1 {
+  position: relative;
+  transform: translateX(4200%);
+  size: 20px;
+  vertical-align: middle;
+}
+
+.pos2 {
+  position: relative;
+  transform: translateX(4500%);
+  size: 20px;
+  vertical-align: middle;
+}
+
+button { 
+  font-size: 25px;
+  color: rgb(36, 118, 121);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex: 1 1 auto;
+}
+
