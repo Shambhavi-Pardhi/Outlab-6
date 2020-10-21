@@ -1,16 +1,4 @@
 @import '~@angular/material/theming';
-@include mat-core();
-$primary: mat-palette($mat-blue, 600);
-$accent:  mat-palette($mat-light-blue, 600, 300, 600);
-$warn:    mat-palette($mat-deep-orange, 500, 700, 800);
-
-$font-stack:    Arial, sans-serif;
-$primary-color: darkcyan;
-
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-}
 
 .right {
   font-size: 40px;
